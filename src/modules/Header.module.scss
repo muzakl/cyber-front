@@ -13,6 +13,10 @@
     margin-left: 60px;
   }
 
+  .burger-holder {
+    display: none;
+  }
+
   .search-wrapper {
     width: 372px;
     height: 56px;
@@ -123,6 +127,56 @@
 
     .icon-wrapper {
       right: 5%;
+    }
+  }
+}
+
+@media (max-width: 426px) {
+  .header-wrapper {
+    width: 375px;
+    height: 40px;
+    border-bottom-width: 1px;
+    justify-content: space-between;
+    padding-top: 24px;
+    padding-right: 16px;
+    padding-bottom: 24px;
+    padding-left: 16px;
+
+
+    .logo-holder {
+      width: 65px;
+      height: 22px;
+      display: flex;
+      align-items: center;
+
+      img {
+        width: 65px;
+        height: 22px;
+      }
+
+    }
+
+    .burger-holder {
+      width: 40px;
+      height: 40px;
+      display: flex;
+      align-items: center;
+
+      img {
+        display: unset;
+      }
+    }
+
+    .search-wrapper {
+      display: none;
+    }
+
+    nav {
+      display: none;
+    }
+
+    .icon-wrapper {
+      display: none;
     }
   }
 }

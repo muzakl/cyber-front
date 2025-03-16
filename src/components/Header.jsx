@@ -6,6 +6,7 @@ import favorites from '../assets/favorites-icon.svg'
 import profile from '../assets/profile-icon.svg'
 import logo from '../assets/cyber-logo.svg'
 import search from '../assets/search-icon.svg'
+import burger from '../assets/burger-icon.svg'
 import {Link} from "react-router";
 
 export const Header = () => {
@@ -26,6 +27,9 @@ export const Header = () => {
             <header className={classes['header-wrapper']}>
                 <figure className={classes['logo-holder']}>
                     <img src={logo} alt="cyber-logo"/>
+                </figure>
+                <figure className={classes['burger-holder']}>
+                    <img src={burger} alt="burger-logo"/>
                 </figure>
                 <figure className={classes['search-wrapper']}>
                     <img src={search} alt="search-icon"/>
